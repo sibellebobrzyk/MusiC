@@ -1,2 +1,1 @@
-# MusiC
- The system processes WAV files, displaying file details and playing audio by default. It allows users to trim audio by specifying start and end times, generating a new file with the segment.
+The system is designed to handle WAV audio files. It prompts the user for the file name, displays essential details like sample rate and channel count, and plays the audio by default using the PlaySound() function. It also enables audio trimming by specifying start and end times, saving the extracted segment to a new file. The implementation relies on the Windows.h library and integrates the Winmm library in Code::Blocks.
